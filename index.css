@@ -105,7 +105,7 @@
 
 .plant-cards-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-items: center;
     gap: 20px;
@@ -130,5 +130,14 @@
     .navbar-container {
         justify-content: center;
         align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .plant-cards-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
