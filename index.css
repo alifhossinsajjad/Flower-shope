@@ -6,7 +6,13 @@
     color: #8987A1;
 }
 
+.text-color-1 {
+    color: #E95A08;
+}
 
+.font-size {
+    font-size: 1.4rem;
+}
 
 /* header style */
 
@@ -26,4 +32,50 @@
 .nav-links {
     display: flex;
     gap: 20px;
+}
+
+
+/* hero section style */
+
+.banner-section {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 200px 0px 0px 0px;
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content {
+    max-width: 570px;
+}  
+.banner-hero-image {
+    max-width: 570px;
+}
+
+.banner-hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* mobaile responsive */
+
+@media screen and (max-width: 576px) {
+    .header-section {
+        padding: 10px;
+    }
+
+    .navbar-container {
+        justify-content: center;
+        align-items: center;
+    }
 }
