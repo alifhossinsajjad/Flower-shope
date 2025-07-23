@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* sheard style */
+
+.text-dark-1 {
+    color: #8987A1;
+}
+
+
+
+/* header style */
+
+.header-section {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
