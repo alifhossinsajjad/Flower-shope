@@ -119,6 +119,50 @@
 }
 
 
+/* plants lover style */
+.plants-lover-section {
+    max-width: 1140px;
+    margin: 0 auto;
+    /* border: 1px solid #E95A08; */
+    
+}
+.plants-lover-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.flower-store-image-content {
+    max-width: 570px;
+}
+
+.flower-store-image {
+    width: 100%;
+    height: auto;
+}
+
+.flower-store-content {
+    width: 520px;
+    /* border: 1px solid #E95A08; */
+}
+
+.flower-store-title {
+    font-size: 3.3rem;
+    font-weight: bold;
+    color: #000000;
+    
+}
+
+.flower-store-description {
+    font-size: 1.0rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 680px;
+}
+
 
 /* mobaile responsive */
 
