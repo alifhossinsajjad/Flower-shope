@@ -301,9 +301,11 @@
         font-size: 28px;
         font-family: Inter;
     }
+
+    
     /* join section style */
     
-    /* .subcribe-section{
+    .subcribe-section{
         background-image: url('./assets/news-letter-bg.png');
         background-repeat: no-repeat;
         background-position: center;
@@ -340,10 +342,10 @@
         background-color: #E95A08;
         color: white;
         padding: 0 20px;
-    } */
+    }
 
 
-    
+
 /* mobaile responsive */
 
 @media screen and (max-width: 576px) {
