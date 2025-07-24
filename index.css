@@ -194,7 +194,41 @@
         gap: 10px;
     }
 
+    /* plants card section */
+
     .plant-cards-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* flower lover section */
+    
+    .plants-lover-section {
+        /* border: 1px solid red; */
+        width: 360px;
+    }
+    
+    .flower-store-title{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+
+    .flower-store-description  {
+        width: 100%;
+        font-size: 0.900rem;
+    }
+
+    .plants-lover-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .flower-store-content {
+        width: 100%;
+    }
+
+    .badge {
+        display: none;
+    }
+
+
+
 }
