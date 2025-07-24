@@ -1,7 +1,10 @@
-@import "tailwindcss";
 
 /* sheard style */
 
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .text-dark-1 {
     color: #8987A1;
@@ -92,9 +95,10 @@
     max-width: 1380px;
     margin: 0 auto;
     padding: 100px 0;
+    width: 100%;
 }
 
-.plant-conetnt {
+.plant-content {
     justify-content: center;
     width: 100%;
     margin-bottom: 50px;
@@ -109,6 +113,7 @@
 .plant-description {
     font-size: 1.2rem;
     text-align: center;
+    padding: 0 10px;
 
 }
 
@@ -188,6 +193,27 @@
     /* border: 1px solid red; */
 }
 
+
+.custom-dot-bullets {
+  padding-left: 0;
+}
+
+.custom-dot-bullets li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+.custom-dot-bullets li::before {
+  content: '';
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #47474779; /* pink-500 */
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  margin-top: 10px;
+}
 /* latest deal style  */
 
 .latest-deal-container {
@@ -214,7 +240,7 @@
 }
 
     /* offer section style */
-    .offer {
+    .offer-section {
         
         display: flex;
         justify-content: center;
@@ -222,15 +248,102 @@
         text-align: center;
     }
     
+    .offer-left {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+   
+    }
+    .offer-card{
+        position: relative;
+        border-radius: 10px;
+    }
     
+    .offer-title {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.434);
+        color: white;
+        border-radius: 10px;
+    }
 
+    .offer-img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
 
+    .offer-img img {
+          border-radius: 10px;
+    }
+
+    .offer-title h3 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .offer-right .offer-title  h3 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .offer-title p {
+        text-decoration: underline;
+    }
+
+    .offer-right .offer-title  p {
+        font-size: 28px;
+        font-family: Inter;
+    }
     /* join section style */
     
+    /* .subcribe-section{
+        background-image: url('./assets/news-letter-bg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 533px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 100px 0;
+    }
+    
+    .subscribe-title {
+        color: white;
+        font-size: 68px;
+        font-weight: bold;
+    }
+
+    .subscribe-form {
+        display: flex;
+    }
+
+    .subscribe-form input {
+        height: 50px;
+        background-color: white;
+        color: gray;
+        width: 500px;
+        padding: 0 20px;
+        translate: 4px 0;
+    }
+
+    .subscribe-form button {
+        height: 50px;
+        background-color: #E95A08;
+        color: white;
+        padding: 0 20px;
+    } */
 
 
-
-
+    
 /* mobaile responsive */
 
 @media screen and (max-width: 576px) {
@@ -344,4 +457,33 @@
         max-width: 388px;
     }
 
+
+    .offer-left {
+        flex-direction: column;
+    }
+
+    .offer-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .offer-card {
+        max-width: 360px;
+    }
+
+    .subcribe-section {
+        max-width: 100%;
+
+    }
+
+    .subscribe-form input {
+        width: 200px;
+    }
+
+    .subscribe-title {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
 }
