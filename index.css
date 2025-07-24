@@ -49,31 +49,39 @@
 
 .banner-section {
     max-width: 1380px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 200px 0px 0px 0px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
 }
 
 .banner-title {
     font-size: 3.5rem;
     font-weight: bold;
     color: #000000;
+    
 }
 
-.banner-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 .banner-content {
-    max-width: 570px;
-}  
+    max-width: 670px;
+    margin-top: 100px;
+}
+
 .banner-hero-image {
-    max-width: 570px;
+    width: 670px;
+    align-items: center;
 }
 
 .banner-hero-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    /* margin-left: 15px; */
+    
 }
 
 
@@ -100,7 +108,7 @@
 .plant-description {
     font-size: 1.2rem;
     text-align: center;
-    
+
 }
 
 .plant-cards-container {
@@ -112,7 +120,8 @@
     padding: 50px;
 }
 
-.plant-card-title, .plant-price {
+.plant-card-title,
+.plant-price {
     font-size: 1.5rem;
     color: #000000;
     text-align: center;
@@ -125,10 +134,11 @@
 .plants-lover-section {
     max-width: 1140px;
     margin: 0 auto;
-    padding: 30px 0px ;
+    padding: 30px 0px;
     /* border: 1px solid #E95A08; */
-    
+
 }
+
 .plants-lover-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -156,7 +166,7 @@
     font-size: 3.3rem;
     font-weight: bold;
     color: #000000;
-    
+
 }
 
 .flower-store-description {
@@ -190,7 +200,7 @@
     text-align: center;
 }
 
-.latest-deal-content{
+.latest-deal-content {
     width: 100%;
 
 }
@@ -219,7 +229,44 @@
         gap: 10px;
     }
 
+    /* banner section style */
+
+    .banner-section {
+        max-width: 1140px;
+        margin: auto;
+    }
+
+    .banner-hero-image{
+       width: auto;
+    }
+
+    .banner-container {
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
     /* plants card section */
+
+    .plant-conetnt {
+        max-width: 1140px;
+    }
+
+    .plant-title {
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+
+    .plant-description {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        font-size: 0.800rem;
+        display: grid;
+    }
 
     .plant-cards-container {
         grid-template-columns: repeat(2, 1fr);
@@ -231,13 +278,13 @@
         /* border: 1px solid red; */
         width: 360px;
     }
-    
-    .flower-store-title{
+
+    .flower-store-title {
         font-size: 1.5rem;
         width: 100%;
     }
 
-    .flower-store-description  {
+    .flower-store-description {
         width: 100%;
         font-size: 0.900rem;
     }
@@ -245,7 +292,7 @@
     .plants-lover-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
     .flower-store-content {
         width: 100%;
     }
