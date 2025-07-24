@@ -177,6 +177,31 @@
     /* border: 1px solid red; */
 }
 
+/* latest deal style  */
+
+.latest-deal-container {
+    max-width: 1440px;
+    margin: 40px auto;
+}
+
+.latest-deal-title {
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.latest-deal-content{
+    width: 100%;
+
+}
+
+.latest-deal-description {
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* mobaile responsive */
 
 @media screen and (max-width: 576px) {
@@ -201,7 +226,7 @@
     }
 
     /* flower lover section */
-    
+
     .plants-lover-section {
         /* border: 1px solid red; */
         width: 360px;
