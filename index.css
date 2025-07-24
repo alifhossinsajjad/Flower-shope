@@ -120,9 +120,12 @@
 
 
 /* plants lover style */
+
+
 .plants-lover-section {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 30px 0px ;
     /* border: 1px solid #E95A08; */
     
 }
@@ -131,6 +134,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: center;
+    position: relative;
 }
 
 .flower-store-image-content {
@@ -144,6 +148,7 @@
 
 .flower-store-content {
     width: 520px;
+    margin: 30px 0px 30px 60px;
     /* border: 1px solid #E95A08; */
 }
 
@@ -163,6 +168,14 @@
     width: 680px;
 }
 
+.badge {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    margin-left: -110px;
+    margin-top: -580px;
+    /* border: 1px solid red; */
+}
 
 /* mobaile responsive */
 
