@@ -254,6 +254,9 @@
         display: none;
     }
 
-
+    /* latsest deal section */
+    .latest-deal-container {
+        max-width: 388px;
+    }
 
 }
